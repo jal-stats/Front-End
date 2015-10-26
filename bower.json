@@ -1,0 +1,18 @@
+{
+  "name": "jal-stats",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Lacey Rice"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jal-stats/Front-End",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
