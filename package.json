@@ -1,0 +1,19 @@
+{
+  "name": "jal-stats",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jal-stats/Front-End.git"
+  },
+  "author": "Lacey Rice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jal-stats/Front-End/issues"
+  },
+  "homepage": "https://github.com/jal-stats/Front-End#readme"
+}
