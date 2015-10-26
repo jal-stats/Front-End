@@ -1,0 +1,26 @@
+{
+  "name": "jal-stats",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Lacey Rice"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jal-stats/Front-End",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "normalize-css": "normalize.css#~3.0.3",
+    "modernizr": "~3.1.0",
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.4.0",
+    "angular-route": "~1.4.7"
+  }
+}

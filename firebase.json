@@ -1,0 +1,9 @@
+{
+  "firebase": "jal-stats",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
