@@ -28,7 +28,24 @@
       controllerAs: 'signup'
     }) //END OF SIGNUP
 
-  });
+    .when('/activity-form', {
+      templateUrl: 'partials/activity-form.html',
+      controller: function($http){
+        var activityCreate = { };
+
+        activityCreate.logActivity = function(){
+          $http.post('https://rocky-falls-8228.herokuapp.com/api/activities/')
+        }
+      },
+      controllerAs: 'activityCreate'
+    }) //END OF ACTIVITY FORM
+
+    .when('/activity-display', {
+      templateUrl: 'partials/activity-display.html'
+      
+    }) //END OF ACTIVITY DISPLAY
+
+  }); // END OF JAL-STATS MODULE
 
 
 })(); //END OF IFFE
