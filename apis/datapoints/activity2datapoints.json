@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 4,
+    "date": "2015-10-27"
+  },
+  {
+    "id": 2,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 7,
+    "date": "2015-10-26"
+  },
+  {
+    "id": 3,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 15,
+    "date": "2015-10-25"
+  },
+  {
+    "id": 4,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 7,
+    "date": "2015-10-24"
+  },
+  {
+    "id": 5,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 0,
+    "date": "2015-10-23"
+  },
+  {
+    "id": 6,
+    "activity": "https://rocky-falls-8228.herokuapp.com/api/activities/2/",
+    "reps": 10,
+    "date": "2015-10-22"
+  }
+]
