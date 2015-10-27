@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "full_description": "Watching ESPN",
+    "units": "Views",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/2/"
+  },
+  {
+    "id": 1,
+    "full_description": "Checking the time on my watch",
+    "units": "Glances",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/1/"
+  }
+]
