@@ -22,5 +22,6 @@
     "jquery": "~2.1.4",
     "font-awesome": "~4.4.0",
     "angular-route": "~1.4.7"
-  }
+  },
+  "version": "0.1.0"
 }
