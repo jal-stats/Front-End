@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/jal-stats/Front-End.git"
   },
-  "author": "Lacey Rice",
+  "author": ["Lacey Rice", "Jeremy Rist"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jal-stats/Front-End/issues"

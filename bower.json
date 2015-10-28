@@ -3,7 +3,8 @@
   "description": "",
   "main": "index.js",
   "authors": [
-    "Lacey Rice"
+    "Lacey Rice",
+    "Jeremy Rist"
   ],
   "license": "MIT",
   "homepage": "https://github.com/jal-stats/Front-End",
