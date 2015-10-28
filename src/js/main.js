@@ -42,7 +42,7 @@
 
     .when('/activity-display', {
       templateUrl: 'partials/activity-display.html'
-      
+
     }) //END OF ACTIVITY DISPLAY
 
   }); // END OF JAL-STATS MODULE
