@@ -45,6 +45,13 @@
 
     }) //END OF ACTIVITY DISPLAY
 
+    .when('/activity-homepage', {
+      templateUrl: 'partials/activity-homepage.html',
+      controller: function($http){
+        $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/')
+      }
+    })//END OF ACTIVITY HOMEPAGE
+
   }); // END OF JAL-STATS MODULE
 
 
