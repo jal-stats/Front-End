@@ -1,4 +1,70 @@
-body {
-  background-color: lightblue;
-  border: 1px solid red;
+@media (max-width: 767px) {           //MOBILE
+  .act-homepg {
+    width: 100%;
+
+    h2 {
+      color: #5bc0de;
+      font-size: 30pt;
+      text-align: center;
+    }
+
+    ul {
+      margin: 0 auto;
+      border: 1px solid #e0e0e0;
+    }
+
+  }
+
+  .form {
+    width: 100%;
+
+    h2 {
+      color: #5bc0de;
+      font-size: 30pt;
+      text-align: center;
+    }
+
+    .login-form { //TODO: EDIT FOR ACTIVITIES
+      margin: 0 auto;
+
+      input {
+      display: block;
+      margin: 0 auto;
+      margin-top: 75px;
+      padding: 5%;
+      width: 80%;
+      font-size: 40pt;
+    }
+  } //END .LOGIN_FORM
+    .redirect {         //TODO: RENAME CLASS AND ADD SPAN?
+      display: block;
+      margin: 0 auto;
+      margin-top: 5px;
+      text-align: center;
+
+      button {
+        width: 65%;
+        font-size: 18pt;
+        margin-top: 70px;
+        background-color: #5bc0de;
+        border: none;
+        strong {
+          display: block;
+          margin: 10 auto;
+          padding: 30px;
+          color: #fff;
+        } //END STRONG
+      } //END BUTTON
+    }//END REDIRECT
+  }//END .FORM
+}//END MOBILE
+
+
+@media (max-width: 1024px) and (min-width: 768px){      //TABLET
+
+}
+
+
+@media (min-width: 1025px) {            //DESKTOP
+
 }

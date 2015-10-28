@@ -1,4 +1,123 @@
-h1 {
-  color: red;
-  background-color: blue;
+@media (max-width: 767px) {           //MOBILE
+  .form {
+    width: 100%;
+
+    h2 {
+      color: #5bc0de;
+      font-size: 30pt;
+      text-align: center;
+    }
+
+    .login-form {
+      margin: 0 auto;
+
+      input {
+      display: block;
+      margin: 0 auto;
+      margin-top: 75px;
+      padding: 5%;
+      width: 80%;
+      font-size: 40pt;
+    }
+  } //END .LOGIN_FORM
+    .redirect {
+      display: block;
+      margin: 0 auto;
+      margin-top: 5px;
+      text-align: center;
+
+      button {
+        width: 65%;
+        font-size: 18pt;
+        margin-top: 70px;
+        background-color: #5bc0de;
+        border: none;
+        strong {
+          display: block;
+          margin: 10 auto;
+          padding: 30px;
+          color: #fff;
+        } //END STRONG
+      } //END BUTTON
+      p {
+        font-size: 16pt;
+      }
+      a {
+        font-size: 20pt;
+        color: #428bca;
+      }
+    }//END REDIRECT
+
+//--------SIGNUP.HTML-----------------------
+  .signup {
+
+    input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 5%;
+    width: 80%;
+    font-size: 38pt;
+  }
+
+  }//END OF .SIGNUP
+}//END .FORM
+
+}//END OF MOBILE
+
+
+@media (max-width: 1024px) and (min-width: 768px){      //TABLET
+  .form {
+    width: 100%;
+
+
+    .login-form {
+      width: 50%;
+      margin: 0 auto;
+
+      input {
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 75px;
+      padding: 5%;
+      width: 50%;
+      font-size: 18pt;
+     }
+   }//END .LOGIN-FORM
+
+
+    .redirect {
+      display: block;
+      margin: 0 auto;
+      margin-top: 5px;
+      text-align: center;
+
+      button {
+        width: 65%;
+        font-size: 18pt;
+        margin-top: 70px;
+        background-color: #5bc0de;
+        border: none;
+        strong {
+          display: block;
+          margin: 10 auto;
+          padding: 25px;
+          color: #fff;
+        } //END STRONG
+      } //END BUTTON
+      p {
+        font-size: 16pt;
+      }
+      a {
+        font-size: 20pt;
+        color: #428bca;
+      }
+    }//END REDIRECT
+}//END OF .FORM
+
+}//END OF TABLET
+
+
+@media (min-width: 1025px) {            //DESKTOP
+
 }
