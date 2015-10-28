@@ -10,8 +10,20 @@
 
     ul {
       margin: 0 auto;
-      border: 1px solid #e0e0e0;
-    }
+      list-style: none;
+      width: 80%;
+
+      li{
+          border: 1px solid #e0e0e0;
+          padding: 2%;
+
+        a {
+          text-decoration: none;
+          font-size: 20pt;
+          color: #1a3750;
+        }
+      }//END LI
+    }//END UL
 
   }
 

@@ -1,14 +1,68 @@
 [
   {
+    "id": 1,
+    "full_description": "monetize efficient web-readiness",
+    "units": "laboriosam",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/1/"
+  },
+  {
     "id": 2,
-    "full_description": "Watching ESPN",
-    "units": "Views",
+    "full_description": "enable 24/7 paradigms",
+    "units": "impedit",
     "url": "https://rocky-falls-8228.herokuapp.com/api/activities/2/"
   },
   {
-    "id": 1,
-    "full_description": "Checking the time on my watch",
-    "units": "Glances",
-    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/1/"
+    "id": 3,
+    "full_description": "optimize holistic applications",
+    "units": "sunt",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/3/"
+  },
+  {
+    "id": 4,
+    "full_description": "generate clicks-and-mortar channels",
+    "units": "iste",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/4/"
+  },
+  {
+    "id": 5,
+    "full_description": "integrate enterprise e-tailers",
+    "units": "rerum",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/5/"
+  },
+  {
+    "id": 6,
+    "full_description": "empower B2B info-mediaries",
+    "units": "aut",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/6/"
+  },
+  {
+    "id": 7,
+    "full_description": "exploit holistic relationships",
+    "units": "nobis",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/7/"
+  },
+  {
+    "id": 8,
+    "full_description": "leverage robust systems",
+    "units": "voluptatem",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/8/"
+  },
+  {
+    "id": 9,
+    "full_description": "implement holistic interfaces",
+    "units": "qui",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/9/"
+  },
+  {
+    "id": 10,
+    "full_description": "evolve synergistic metrics",
+    "units": "incidunt",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/10/"
+  },
+  {
+    "id": 11,
+    "full_description": "Drink Coffee",
+    "units": "Cups",
+    "url": "https://rocky-falls-8228.herokuapp.com/api/activities/11/"
   }
 ]
