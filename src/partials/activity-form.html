@@ -1,0 +1,17 @@
+<section class="form">
+  <h2>Activity Form</h2>
+    <form class="activity-form" ng-submit="activityCreate.logActivity($form)">
+      <h4>Activity name:</h4>
+      <input type="text" name="activityname" placeholder="activity" ng-model="activityCreate.activities.full_description">
+      <h4>How many?</h4>
+      <input type="number" name="reps" ng-model="activityCreate.activities.datapoints.reps">
+      <!-- TODO: fix datapoint json -->
+      <h4>Date</h4>
+      <input type="date" name="date" ng-model="activityCreate.activities.datapoints.date">
+      <!-- TODO: fix datapoint date json -->
+      <button class="submit">Submit</button>
+    </form>
+</section>
+
+
+<!--TODO: Make this ONLY activity name  -->

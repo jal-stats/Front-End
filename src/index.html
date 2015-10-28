@@ -16,12 +16,25 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <body>
+          <main class="container" ng-app="Jal-Stats">
+            <header class="title">
+              <h1 class="pagetitle">Jal-Stats</h1>
+<!-- FIXME: DISPLAY ONLY ACTIVE LINK / ACTIVITY LINKS WHEN SIGNED IN -->
+               <nav class="nav-bar">
+                <a href="#/activity-homepage" class="logged-out">Activities Home</a>
+                <a href="#/activity-form" class="logged-out">Activity-Form</a>
+                <a href="#/activity-display" class="logged-out">Activity-Display</a>
+              </nav>
+            </header>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
+
+            <section class="body">
+              <ng-view />
+
+            </section>
+          </main>
 
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
