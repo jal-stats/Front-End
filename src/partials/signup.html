@@ -1,6 +1,12 @@
-<form class="signup" ng-submit="signup.createUser($form)">
-  <input type="text" class="username" placeholder="username" ng-model="signup.user.user_name"></input>
-  <input type="email" class="email" placeholder="email (optional)" ng-model="signup.user.email"></input>
-  <input type="password" class="password" placeholder="******" ng-model="signup.user.password"></input>
-  <button>Submit</button>
-</form>
+<section class="form">
+  <form class="signup" ng-submit="signup.createUser($form)">
+    <input type="text" class="username" placeholder="username" ng-model="signup.user.user_name"></input>
+    <input type="email" class="email" placeholder="email (optional)" ng-model="signup.user.email"></input>
+    <input type="password" class="password" placeholder="******" ng-model="signup.user.password"></input>
+
+    <span class="redirect">
+      <button><strong>Submit</strong></button>
+      <p>Already a member? <a href="#/login">Log in</a></p>
+    </span>
+  </form>
+</section>
