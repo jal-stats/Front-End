@@ -47,8 +47,13 @@
 
     .when('/activity-homepage', {
       templateUrl: 'partials/activity-homepage.html',
-      controller: function($http){
+      controller: function($http, $rootScope){
         $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/')
+          .then(function(response){
+            // $rootScope.full_description = "Hello There"
+
+            $rootScope.activities = response.data;
+          })
       }
     })//END OF ACTIVITY HOMEPAGE
 

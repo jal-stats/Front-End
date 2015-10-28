@@ -2,8 +2,19 @@
   <h2>Activities Home</h2>
   <ul class="activities-list">
     <li ng-repeat="activity in activities">
-      <h4 class="act-name">{{activities.full_description}}</h4>
+      <a href="#/activity-display" class="act-name">{{activity.full_description}}</a>
+      <!--TODO: MAKE H4 A LINK TO ACTIVITIE FORM -->
+      <!--TODO: ADD LI WITH INPUT AREA FOR ADDING ACTIVITY NAME -->
+
       <!--TODO: ADD LAST DATAPOINT?  -->
+    </li>
+    <li>
+      <form>
+        <input type="text" placeholder="New Activity"></input>
+      </form>
+      <span class="redirect">
+        <button><strong>Submit</strong></button>
+      </span>
     </li>
   </ul>
 </section>
