@@ -14,6 +14,7 @@
       width: 80%;
       font-size: 40pt;
     }
+  } //END .LOGIN_FORM
     .redirect {
       display: block;
       margin: 0 auto;
@@ -41,7 +42,19 @@
         color: #428bca;
       }
     }//END REDIRECT
-  } //END .LOGIN_FORM
+
+  .signup {
+
+    input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 5%;
+    width: 80%;
+    font-size: 38pt;
+  }
+
+  }//END OF .SIGNUP
 }//END .FORM
 
 }//END OF MOBILE
