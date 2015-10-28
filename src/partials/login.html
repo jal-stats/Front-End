@@ -1,4 +1,11 @@
-<form class="login-form" ng-submit="login.logUser($form)">
-  <input type="text" class="username" placeholder="username" ng-model="login.user.user_name"></input>
-  <input type="password" class="password" placeholder="******" ng-model="login.user.password"></input>
-</form>
+<section class="form">
+  <form class="login-form col-3" ng-submit="login.logUser($form)">
+    <input type="text" class="username" placeholder="username" ng-model="login.user.user_name"></input>
+    <input type="password" class="password" placeholder="******" ng-model="login.user.password"></input>
+
+    <span class="redirect">
+      <button><strong>Submit</strong></button>
+      <p>Not a member? <a href="#/signup">Sign-up</a></p>
+    </span>
+  </form>
+</section>
