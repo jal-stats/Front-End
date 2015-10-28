@@ -9,9 +9,17 @@
       controller: function($http){
         var login = { };
 
-        login.logUser = function(){
-          $http.get('https://rocky-falls-8228.herokuapp.com/api/users/')
-        }
+        login.send = function(){
+          $http.get('https://rocky-falls-8228.herokuapp.com/api/users/' + '/whoami', {
+            headers: {
+              Authorization: "Basic" + btoa(login.user.username + ':' + login.user.password)
+            }
+          }).then(function(response){
+            $http.defaults.headers.common.Authorization = "Basic" + btoa(
+              login.user.username + ':' + login.user.password
+            );
+          })//END OF PROMISE
+        }//END OF .SEND
       },
       controllerAs: 'login'
     }) //END OF LOGIN
