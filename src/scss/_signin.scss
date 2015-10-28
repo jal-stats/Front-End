@@ -67,9 +67,8 @@
 
 
 @media (max-width: 1024px) and (min-width: 768px){      //TABLET
-  .form {
+  form {
     width: 100%;
-
 
     .login-form {
       width: 50%;
@@ -83,8 +82,8 @@
       width: 50%;
       font-size: 18pt;
      }
-   }//END .LOGIN-FORM
 
+   }//END .LOGIN-FORM
 
     .redirect {
       display: block;
@@ -119,5 +118,7 @@
 
 
 @media (min-width: 1025px) {            //DESKTOP
-
+  section.form.ng-scope {
+    margin-left: 200px;
+}
 }
