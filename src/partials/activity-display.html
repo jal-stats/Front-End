@@ -1,4 +1,4 @@
-<section class="activity-page">
+<section class="activity-page" ng-repeat="activity in activities">
   <h1>{{activity.full_description}}</h1>
 
   <table class="activity-display">
@@ -8,8 +8,8 @@
     </thead>
     <tbody ng-repeat="stat in stats">
       <tr>
-        <td>{{stats.reps}}</td>
-        <td>{{stats.date}}</td>
+        <td>{{activity.stat.reps}}</td>
+        <td>{{activity.stat.date}}</td>
       </tr>
     <tbody>
   </table>
