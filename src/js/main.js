@@ -52,7 +52,7 @@
       templateUrl: 'partials/activity-display.html',
       controller: function($http, $routeParams){
         console.log($routeParams);
-        $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/'+ $routeParams.activities_id +'/stats/')
+        $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/'+ $routeParams.activities_id)
       }
 
     }) //END OF ACTIVITY DISPLAY
