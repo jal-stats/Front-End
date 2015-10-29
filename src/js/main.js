@@ -50,10 +50,11 @@
 
     .when('/activity-display/:activities_id', {
       templateUrl: 'partials/activity-display.html',
-      controller: function($http, $routeParams){
+      controller: function($http, $routeParams, $rootScope){
         console.log($routeParams);
         $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/'+ $routeParams.activities_id)
-      }
+
+        },
 
     }) //END OF ACTIVITY DISPLAY
 
