@@ -48,8 +48,12 @@
       controllerAs: 'activityCreate'
     }) //END OF ACTIVITY FORM
 
-    .when('/activity-display', {
-      templateUrl: 'partials/activity-display.html'
+    .when('/activity-display/:activities_id', {
+      templateUrl: 'partials/activity-display.html',
+      controller: function($http, $routeParams){
+        console.log($routeParams);
+        $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/'+ $routeParams.activities_id +'/stats/')
+      }
 
     }) //END OF ACTIVITY DISPLAY
 
