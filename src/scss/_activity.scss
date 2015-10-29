@@ -6,6 +6,11 @@
       color: #5bc0de;
       font-size: 30pt;
       text-align: center;
+
+      &::after {
+        content: '\f015';
+        font-family: fontAwesome;
+      }
     }
 
     ul {
@@ -26,7 +31,7 @@
         .new-activity{
           margin: 0 auto;
 
-          h4 {
+          a {
             text-align: center;
             color: #5cb85c;
             font-size: 16pt;

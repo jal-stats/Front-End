@@ -38,11 +38,14 @@
 
     .when('/activity-form', {
       templateUrl: 'partials/activity-form.html',
-      controller: function($http){
-        var activityCreate = { };
+      controller: function($http, $location){
+        this.activities = { };
 
-        activityCreate.logActivity = function(){
+        this.logActivity = function(){
           $http.post('https://rocky-falls-8228.herokuapp.com/api/activities/')
+
+          this.activities = { };
+          $location.path('/activity-form');
         }
       },
       controllerAs: 'activityCreate'
@@ -63,11 +66,17 @@
       controller: function($http, $rootScope){
         $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/')
           .then(function(response){
-            // $rootScope.full_description = "Hello There"
-
             $rootScope.activities = response.data;
           })
       }
+      // secondController: function($http, $rootScope){
+      //   var newActivity = { };
+      //   newActivity.createActivity = function(){
+      //   $http.post('https://rocky-falls-8228.herokuapp.com/api/activities/')
+      //   }
+      //   // var newActivity = { };
+      // }, //END SECOND CONTROLLER
+      // controllerAs: 'newActivity'
     })//END OF ACTIVITY HOMEPAGE
 
   }); // END OF JAL-STATS MODULE
