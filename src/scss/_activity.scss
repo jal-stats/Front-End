@@ -1,5 +1,5 @@
 @media (max-width: 767px) {           //MOBILE
-  .act-homepg {
+  .act-homepg {     //ACTIVITY-HOMEPAGE
     width: 100%;
 
     h2 {
@@ -14,24 +14,66 @@
       width: 80%;
 
       li{
-          border: 1px solid #e0e0e0;
-          padding: 2%;
+          border: 1px solid #e0e0e0; //LIGHT GREY
+          padding: 5%;
 
         a {
           text-decoration: none;
           font-size: 20pt;
-          color: #1a3750;
+          color: #1a3750; //DARK BLUE
         }
       }//END LI
+        .new-activity{
+          margin: 0 auto;
+
+          h4 {
+            text-align: center;
+            color: #5cb85c;
+            font-size: 16pt;
+          }
+
+          form {
+            margin: 0 auto;
+            text-align: center;
+          }
+          input {
+            text-align: center;
+            padding: 2%;
+          }
+
+          .submit {
+            margin: 0 auto;
+            text-align: center;
+
+            button {
+              width: 65%;
+              font-size: 16pt;
+              background-color: #5bc0de; //MEDIUM BLUE
+              border: none;
+              display: block;
+              margin: 0 auto;
+              margin-top: 20px;
+
+
+
+              strong {
+                display: block;
+                margin: 10 auto;
+                padding: 30px;
+                color: #fff;
+              } //END STRONG
+            }//END BUTTON
+          }//END .SUBMIT
+        }//END .NEW-ACTIVITY
     }//END UL
 
-  }
+  } //END OF ACTIVITY-HOMEPAGE
 
   .form {
     width: 100%;
 
     h2 {
-      color: #5bc0de;
+      color: #5bc0de; //LIGHT BLUE
       font-size: 30pt;
       text-align: center;
     }

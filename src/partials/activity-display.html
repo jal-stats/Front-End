@@ -1,41 +1,22 @@
-<h1>Activity Display</h1>
-  <h4>{{Activity Title}}</h4>
-  <h4>{{Username}}</h4>
-<table class="activity-display">
-  <thead class="table-header">
-    <th>How Many</th>
-    <th>Date</th>
-  </thead>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-  <tr>
-    <td>{{reps}}</td>
-    <td>{{date}}</td>
-  </tr>
-</table>
+<section class="activity-page" ng-repeat="activity in activities">
+  <h1>{{activity.full_description}}</h1>
+
+  <table class="activity-display">
+    <thead class="table-header">
+      <th>How Many</th>
+      <th>Date</th>
+    </thead>
+    <tbody ng-repeat="stat in stats">
+      <tr>
+        <td>{{activity.stat.reps}}</td>
+        <td>{{activity.stat.date}}</td>
+      </tr>
+    <tbody>
+  </table>
+  <form>
+    <h3>Add a new stat</h3>
+    <input type="date"></input>
+    <input type="text" placeholder="#"></input>
+  <form>
+
+</section>

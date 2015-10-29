@@ -9,9 +9,17 @@
       controller: function($http){
         var login = { };
 
-        login.logUser = function(){
-          $http.get('https://rocky-falls-8228.herokuapp.com/api/users/')
-        }
+        login.send = function(){
+          $http.get('https://rocky-falls-8228.herokuapp.com/api/users/' + '/whoami', {
+            headers: {
+              Authorization: "Basic" + btoa(login.user.username + ':' + login.user.password)
+            }
+          }).then(function(response){
+            $http.defaults.headers.common.Authorization = "Basic" + btoa(
+              login.user.username + ':' + login.user.password
+            );
+          })//END OF PROMISE
+        }//END OF .SEND
       },
       controllerAs: 'login'
     }) //END OF LOGIN
@@ -40,8 +48,13 @@
       controllerAs: 'activityCreate'
     }) //END OF ACTIVITY FORM
 
-    .when('/activity-display', {
-      templateUrl: 'partials/activity-display.html'
+    .when('/activity-display/:activities_id', {
+      templateUrl: 'partials/activity-display.html',
+      controller: function($http, $routeParams, $rootScope){
+        console.log($routeParams);
+        $http.get('https://rocky-falls-8228.herokuapp.com/api/activities/'+ $routeParams.activities_id)
+
+        },
 
     }) //END OF ACTIVITY DISPLAY
 
