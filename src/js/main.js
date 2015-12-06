@@ -39,7 +39,7 @@
     .when('/activity-form', {
       templateUrl: 'partials/activity-form.html',
       controller: function($http, $location){
-        this.activities = { };
+        this.activities = {full_description: " ", units: " " };
 
         this.logActivity = function(){
           $http.post('https://rocky-falls-8228.herokuapp.com/api/activities/')

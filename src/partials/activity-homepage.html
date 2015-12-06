@@ -3,12 +3,12 @@
   <ul class="activities-list">
     <li class="new-activity">
       <a href="#/activity-form">Add New Activity</a>
-      <!-- <form ng-submit="newActivity.createActivity($form)">
+       <form ng-submit="newActivity.createActivity($form)">
         <input type="text" placeholder="New Activity" ng-model="newActivity.activities.full_description"></input>
-      </form> -->
-      <!-- <span class="submit">
+      </form>
+      <span class="submit">
         <button><strong>Submit</strong></button>
-      </span> -->
+      </span>
     </li>
     <li ng-repeat="activity in activities">
       <a href="#/activity-display/{{activity.id}}" class="act-name">{{activity.full_description}}</a>
